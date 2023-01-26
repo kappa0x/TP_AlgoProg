@@ -14,6 +14,12 @@ def a_la_chaine2(esp,n):
         sapin = " " * (esp) + "A" * (n)
     return sapin
 
-hello = a_la_chaine2(2,7)
-print(hello)
-print(len(hello))
+#Question 1.3;
+def colonne(n):
+    """Retourne None et Affiche 10 fois une chaîne de caractères composé de n fois  A"""
+    sapin = ""
+    i = 0
+    for i in range(10):
+        sapin = "A" * (n)
+        print(sapin)
+    return None
