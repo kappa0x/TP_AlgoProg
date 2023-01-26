@@ -23,3 +23,15 @@ def colonne(n):
         sapin = "A" * (n)
         print(sapin)
     return None
+
+#Question 1.4;
+def diagonale1(n):
+    """"Retourne n lignes, la première ligne devra contenir 1 caractère A et la deuxième ligne devra contenir 2 caractères A, et ainsi de suite jusqu'à n lignes"""
+    sapin = ""
+    for i in range(n):
+        sapin = "A" * (i+1)
+        print(sapin)
+    return sapin
+print(diagonale1(5))
+
+#Question 1.5;
