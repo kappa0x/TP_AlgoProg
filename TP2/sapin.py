@@ -32,6 +32,16 @@ def diagonale1(n):
         sapin = "A" * (i+1)
         print(sapin)
     return sapin
-print(diagonale1(5))
+##print(diagonale1(5))
 
 #Question 1.5;
+def diagonale2(n):
+    """Retourne n lignes, sur la première ligne il doit y avoir des espaces et un caractère 'A' en dernière position, sur la deuxième ligne il doit y avoir des espaces et deux caractères 'A' en dernière position"""
+    sapin = ""
+    for i in range(n):
+        sapin = " " * (n-i) + "A" * (i+1)
+        print(sapin)
+    return sapin
+##print(diagonale2(5))
+
+#Question 1.6;
